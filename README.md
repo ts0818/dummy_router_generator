@@ -50,7 +50,12 @@ prefix,count,ip,model,user,password,enable
 | password     | パスワード |
 | enable       | enable パスワード（任意） |
 
-※1 同一のIPアドレスで模擬的に複数のホストと見立てたい場合に数を調整します。接続対象のネットワーク機器の同時接続数を考慮する必要があります。
+※1 同一のIPアドレスで模擬的に複数のホストと見立てたい場合に数を調整します。接続対象のネットワーク機器の同時接続数を考慮する必要があるため、
+「Oxidized」の「Configuration」の`threads`と`use_max_threads`の設定を調整する必要があります。
+```
+■■■ OxidizedのConfiguration ■■■
+https://github.com/ytti/oxidized/blob/master/docs/Configuration.md
+```
 
 ---
 
@@ -174,5 +179,6 @@ dummy_router_generator/
     ├── README.md
     └── .gitignore
 ```
+
 
 
