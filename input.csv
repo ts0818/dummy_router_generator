@@ -1,0 +1,3 @@
+prefix,count,ip,model,user,password,enable
+Catalyst-2960-L,8,192.168.1.10,ios,admin,secret,enablePass
+RTX830,8,10.0.0.1,yamaha,root,passwd,

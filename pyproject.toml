@@ -1,0 +1,51 @@
+# =======================
+# Build system configuration
+# =======================
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# =======================
+# Project metadata
+# =======================
+[project]
+name = "dummy_router_generator"
+version = "0.1.0"
+description = "CSV から一意番号付きの router.db を生成するツール"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+dependencies = []
+
+# =======================
+# Optional tool configurations
+# =======================
+
+# Pytest configuration via pyproject.toml. This tells pytest where tests live and
+# any additional options if needed.
+[tool.pytest.ini_options]
+# minimum pytest version
+minversion = "6.0"
+# where to discover tests
+testpaths = ["tests"]
+# additional pytest options (optional)
+addopts = "-q"
+
+# If you want to add the src directory to PYTHONPATH for pytest discovery,
+# you can also include (uncomment if needed):
+# pythonpath = ["src"]
+
+# Example of specifying coverage options (optional)
+# [tool.coverage.run]
+# branch = true
+# source = ["src"]
+
+# (その他のツール設定：フォーマッタ／linter などは追記可能)
+# [tool.black]
+# line-length = 88
+# exclude = "..."
+
+# [tool.isort]
+# profile = "black"
