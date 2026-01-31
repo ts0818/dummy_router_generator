@@ -50,8 +50,8 @@ prefix,count,ip,model,user,password,enable
 | password     | パスワード |
 | enable       | enable パスワード（任意） |
 
-※1 同一のIPアドレスで模擬的に複数のホストと見立てたい場合に数を調整します。接続対象のネットワーク機器の同時接続数を考慮する必要があるため、
-「Oxidized」の「Configuration」の`threads`と`use_max_threads`の設定を調整する必要があります。
+※1 同一のIPアドレスで模擬的に複数のホストと見立てたい場合に数を調整します。接続対象のネットワーク機器の同時接続数が関係して来るため、
+実際に「Oxidized」の「model」の動作確認をする際の「Oxidized」の「Configuration」の`threads`と`use_max_threads`の設定を考慮する必要があります。
 ```
 ■■■ OxidizedのConfiguration ■■■
 https://github.com/ytti/oxidized/blob/master/docs/Configuration.md
@@ -102,6 +102,12 @@ RTX830-00007-00015:10.0.0.1:yamaha:root:passwd:
 RTX830-00008-00016:10.0.0.1:yamaha:root:passwd:
 ```
 
+---
+## ✅ 動作確認
+以下のバージョンのPythonで動作確認済み
+```
+Python 3.13.3
+```
 ---
 
 ## 🛠 インストール方法
@@ -179,6 +185,7 @@ dummy_router_generator/
     ├── README.md
     └── .gitignore
 ```
+
 
 
 
