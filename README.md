@@ -84,22 +84,22 @@ RTX830,8,10.0.0.1,yamaha,root,passwd,
 ```
 【出力】`router.db`
 ```
-Catalyst-2960-L-00001-00001:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00002-00002:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00003-00003:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00004-00004:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00005-00005:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00006-00006:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00007-00007:192.168.1.10:ios:admin:secret:enablePass
-Catalyst-2960-L-00008-00008:192.168.1.10:ios:admin:secret:enablePass
-RTX830-00001-00009:10.0.0.1:yamaha:root:passwd:
-RTX830-00002-00010:10.0.0.1:yamaha:root:passwd:
-RTX830-00003-00011:10.0.0.1:yamaha:root:passwd:
-RTX830-00004-00012:10.0.0.1:yamaha:root:passwd:
-RTX830-00005-00013:10.0.0.1:yamaha:root:passwd:
-RTX830-00006-00014:10.0.0.1:yamaha:root:passwd:
-RTX830-00007-00015:10.0.0.1:yamaha:root:passwd:
-RTX830-00008-00016:10.0.0.1:yamaha:root:passwd:
+Catalyst-2960-L-00001-00017:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00002-00018:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00003-00019:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00004-00020:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00005-00021:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00006-00022:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00007-00023:192.168.1.10:ios:admin:secret:enablePass
+Catalyst-2960-L-00008-00024:192.168.1.10:ios:admin:secret:enablePass
+RTX830-00001-00025:10.0.0.1:yamaha:root:passwd
+RTX830-00002-00026:10.0.0.1:yamaha:root:passwd
+RTX830-00003-00027:10.0.0.1:yamaha:root:passwd
+RTX830-00004-00028:10.0.0.1:yamaha:root:passwd
+RTX830-00005-00029:10.0.0.1:yamaha:root:passwd
+RTX830-00006-00030:10.0.0.1:yamaha:root:passwd
+RTX830-00007-00031:10.0.0.1:yamaha:root:passwd
+RTX830-00008-00032:10.0.0.1:yamaha:root:passwd
 ```
 
 ---
@@ -185,6 +185,7 @@ dummy_router_generator/
     ├── README.md
     └── .gitignore
 ```
+
 
 
 
